@@ -1,0 +1,18 @@
+{
+   "name":"Jalali",
+   "description":"Gregorian to Jalali Converter",
+   "version":"0.1.0",
+   "homepage":"http://github.com/alireza-ahmadi/jalali",
+   "repository":"git://github.com/alireza-ahmadi/jalali.git",
+   "author":"Alireza Ahmadi <a.ahmadi94@gmail.com> (http://alireza.es/)",
+   "main":"./index.js",
+   "engines":{
+      "node":">= 0.4.0"
+   },
+   "licenses":[
+      {
+         "type":"MIT",
+         "url":"http://github.com/alireza-ahmadi/jalali/raw/master/LICENSE"
+      }
+   ]
+}
