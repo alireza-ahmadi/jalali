@@ -1,4 +1,3 @@
-![status]
 
 ## Information
 
@@ -18,4 +17,4 @@
 
 ## Usage
 
-You can read documention in persian [at my website](https://alireza.es/projects/jalali/)
+You can read documention in persian [at my website](http://alireza.es/projects/jalali/)
