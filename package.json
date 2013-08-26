@@ -1,7 +1,7 @@
 {
    "name":"Jalali",
    "description":"Gregorian to Jalali Converter",
-   "version":"0.1.0",
+   "version":"0.1.1",
    "homepage":"http://github.com/alireza-ahmadi/jalali",
    "repository":"git://github.com/alireza-ahmadi/jalali.git",
    "author":"Alireza Ahmadi <a.ahmadi94@gmail.com> (http://alireza.es/)",

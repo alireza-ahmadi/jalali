@@ -8,5 +8,5 @@ http.createServer(function (req, res) {
 	res.end(str);
 }).listen(9999);
 
-console.log('now : go to http://localhost:9999');
+console.log('Now : go to http://localhost:9999');
 

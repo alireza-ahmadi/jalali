@@ -1,5 +1,3 @@
-[![build status](https://secure.travis-ci.org/alireza-ahmadi/jalali.png)](http://travis-ci.org/alireza-ahmadi/jalali)
-
 ## Information
 
 <table>

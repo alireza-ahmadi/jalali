@@ -25,9 +25,9 @@ var Jalali = {
 	yesterday : function(style){
 		var date = new Date();
 		var jdate = {
-			year : parseInt(date.getFullYear()),
-			month : parseInt(date.getMonth() + 1),
-			day : parseInt(date.getDate())
+			year : parseInt(date.getFullYear(),10),
+			month : parseInt(date.getMonth() + 1,10),
+			day : parseInt(date.getDate(),10)
 		}
 		if(jdate.day == 1){
 			if(jdate.month == 1){
@@ -54,9 +54,9 @@ var Jalali = {
 	today : function(style){
 		var date = new Date();
 		var jdate = {
-			year : parseInt(date.getFullYear()),
-			month : parseInt(date.getMonth() + 1),
-			day : parseInt(date.getDate())
+			year : parseInt(date.getFullYear(),10),
+			month : parseInt(date.getMonth() + 1,10),
+			day : parseInt(date.getDate(),10)
 		}
 		jdate.result = JalaliDate.gregorianToJalali(jdate.year, jdate.month, jdate.day);
 		if(style){
@@ -68,9 +68,9 @@ var Jalali = {
 	tomorrow : function(style){
 		var date = new Date();
 		var jdate = {
-			year : parseInt(date.getFullYear()),
-			month : parseInt(date.getMonth() + 1),
-			day : parseInt(date.getDate())
+			year : parseInt(date.getFullYear(),10),
+			month : parseInt(date.getMonth() + 1,10),
+			day : parseInt(date.getDate(),10)
 		}
 		if(jdate.day == JalaliDate.j_days_in_month[jdate.month - 1]){
 			if(jdate.month == 12){
