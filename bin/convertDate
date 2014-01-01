@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+/**
+ * Console version
+ * Example: convertDate 2013 08 05
+ */
+
+var jalali = require('../index.js');
+var convertedDate = jalali.convert(process.argv[2], process.argv[3], process.argv[4], process.argv[5], process.argv[6]);
+console.log(convertedDate.y + '/' + convertedDate.m + '/' + convertedDate.d);
