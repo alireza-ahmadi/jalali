@@ -14,5 +14,8 @@
          "type":"MIT",
          "url":"http://github.com/alireza-ahmadi/jalali/raw/master/LICENSE"
       }
-   ]
+   ],
+   "bin": {
+      "convertDate": "./bin/convertDate"
+   }
 }
