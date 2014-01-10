@@ -17,5 +17,8 @@
    ],
    "bin": {
       "convertDate": "./bin/convertDate"
+   },
+   "devDependencies": {
+      "jasmine-node": ">=1.3.1"
    }
 }
